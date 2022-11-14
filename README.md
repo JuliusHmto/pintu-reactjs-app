@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project Assumptions
+
+Yearly change in [Price API](https://api.pintu.co.id/v2/trade/price-changes) was set to null, so I removed the yearly column on the website.
+
 ## Available Scripts
 
 In the project directory, you can run:

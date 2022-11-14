@@ -1,0 +1,118 @@
+  .titleSearchHeader {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 50px
+  }
+
+  .title {
+    text-align: left;
+    padding-left: 50px;
+    flex: 1
+  }
+  .inputContainer {
+    flex: 1;
+    text-align: end;
+    padding-right: 50px
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table;
+  }
+
+  li {
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: #1e5de5;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #dcebfb;
+  }
+
+  li a {
+    display: block;
+    color: #1e5de5;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  li:hover {
+    background-color: #85bef8;
+    border-style: solid;
+    border-radius: 50px;
+  }
+
+  .navBarHeader {
+    padding-left: 100px;
+    margin-bottom: 50px;
+  }
+
+  .iconSize {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .spanText {
+    top: -5px;
+    position: relative;
+    font-weight: bold;
+  }
+
+  tr {
+    height: 50px;
+  }
+  .cryptoTitle {
+    text-align: center;
+  }
+
+  .textAlignRight {
+    text-align: right;
+  }
+
+  .textAlignLeft {
+    text-align: left;
+  }
+
+  .green {
+    color: green;
+  }
+
+  .red {
+    color: red;
+  }
+
+  table {
+    border: 1px solid #ddd;
+  }
+
+  .tokenListContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .tokenListTable {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .tokenListTable td, .tokenListTable th {
+    border-bottom: 1px solid #ddd;
+    padding: 10px
+  }
+
+  .cryptoName {
+    text-align: left;
+  }
+
